@@ -51,6 +51,7 @@ coverage.xml
 
 # Project specific
 body_care.json
+.vscode/
 .pytest_cache/
 cover/
 
