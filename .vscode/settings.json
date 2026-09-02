@@ -1,0 +1,25 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "type": true,
+        "/^Rename-Item -Path \"eye_care\\.\\.ico\" -NewName \"body_care\\.ico\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^git add \\. ; git status$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^git restore --staged \\.vscode/settings\\.json$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^git commit -m \"Rename eye_care to body_care\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^git push origin main$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

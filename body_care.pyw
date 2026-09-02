@@ -52,7 +52,7 @@ def make_config_gui(eye_alarm_msg, eye_alarm_beep, eye_alarm_beep_freq, eye_alar
     frame_config = [        
         [sg.Col(col_config, k='col_config'), ]        
     ]     
-    return sg.Frame('Eye Care Configure', frame_config, title_color='pink') 
+    return sg.Frame('Body Care Configure', frame_config, title_color='pink') 
 
 
 def make_setting_window(eye_alarm_msg, eye_alarm_beep, eye_alarm_beep_freq, eye_alarm_beep_tm, eye_min, eye_sec, eye_msg):
@@ -61,7 +61,7 @@ def make_setting_window(eye_alarm_msg, eye_alarm_beep, eye_alarm_beep_freq, eye_
                [sg.HSeparator(),],
                [make_button_gui(),],       
              ]
-    return sg.Window('Eye 20-20-20 rule configure' , layout, element_justification='c', no_titlebar=True, grab_anywhere=True, keep_on_top=True)
+    return sg.Window('Body remainer configure' , layout, element_justification='c', no_titlebar=True, grab_anywhere=True, keep_on_top=True)
 ##############################################################    
 
 EYE_MSG_DEFAULT = '起來喝喝水、眼晴動一動、身體動一動'
